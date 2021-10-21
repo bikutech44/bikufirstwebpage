@@ -1,8 +1,8 @@
 <?php
-$name = $POST['name'];
-$visistor_email = $POST['email'];
-$subject = $POST['subject'];
-$message = $POST['message'];
+$name = $_POST['name'];
+$visistor_email = $_POST['email'];
+$subject = $_POST['subject'];
+$message = $_POST['message'];
  
 $email_from ='bikufirstwebpage.com';
 
