@@ -98,6 +98,7 @@ nav .fa{
 .row{
     display: flex;
    justify-content: space-between;
+	align-items: center;
   
 }
 
@@ -110,7 +111,7 @@ nav .fa{
 }
 .row p{
     text-align: center;
-    margin-top: 150%;
+    
     
 }
 
@@ -164,10 +165,6 @@ nav .fa{
     width: 26%;
     }
     
-    .row p{
-    margin-top: 20%;
-    }
-
     
    
 }
