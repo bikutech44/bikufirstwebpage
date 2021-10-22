@@ -296,6 +296,13 @@ p{
     box-sizing: border-box;
     
 }
+.row1{
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+  
+}
+
 
 
 
