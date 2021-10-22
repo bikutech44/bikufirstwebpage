@@ -164,6 +164,12 @@ nav .fa{
     .row img{
     width: 26%;
     }
+	
+	   .row{
+        flex-direction: column;
+        display: flex;
+    }
+    
     
     
    
