@@ -75,6 +75,33 @@ nav img {
     color: #fff;
 }
 
+@keyframes animate
+{
+    0%
+    {
+        transform: scale(0);
+        color: crimson;
+    }
+    30%{
+        transform: scale(1.2);
+        
+        
+    }
+    50%
+    {
+        transform: scale(1.4);
+        color: cyan;
+    }
+    
+    100%{
+        letter-spacing: normal;
+        color: white;
+    }
+}
+
+
+
+
 .hero-btn{
     display: inline-block;
     text-decoration: none;
@@ -172,6 +199,32 @@ nav .fa{
         flex-direction: column;
         display: flex;
     }
+	
+	
+	@keyframes animate
+{
+    0%
+    {
+        transform: scale(0);
+        color: crimson;
+    }
+    30%{
+        transform: scale(1.1);
+        
+        
+    }
+    50%
+    {
+        transform: scale(1.22);
+        color: cyan;
+    }
+    
+    100%{
+        letter-spacing: normal;
+        color: white;
+    }
+}
+
     
    
 }
